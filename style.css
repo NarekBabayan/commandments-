@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imageDiv {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 100vh;
+    background-image: url("https://mediamag.am/wp-content/uploads/2012/04/golub_1280x1024.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.imageDiv > div {
+    margin-top: 50px;
+}
+
+.imageDiv p {
+    font-size: 25px;
+    margin:20px;
+    font-weight:bolder;
+}
+
+.button {
+    position: absolute;
+    top:75%;
+    margin:auto;
+}
+
+.button button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    box-shadow: blanchedalmond 2px 2px 2px;
+}
+
+.nonDiv {
+    display: none;
+    margin: 30px 20px;
+    
+}
+
+.nonDiv p {
+    font-weight: bolder;
+    color: crimson;
+    font-size: 22px;
+}
